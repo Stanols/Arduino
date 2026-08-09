@@ -7,5 +7,6 @@ void setup()
 void loop()
 {
   int value = digitalRead(13);
-  digitalWrite(12, value);
+
+  digitalWrite(12, value); //write to output
 }
